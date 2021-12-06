@@ -8,6 +8,7 @@ metadata:
 spec:
   accessModes:
   - ReadWriteOnce
+  storageClassName: alibabacloud-cnfs-nas
   resources:
     requests:
-      storage: 100M
+      storage: 500M

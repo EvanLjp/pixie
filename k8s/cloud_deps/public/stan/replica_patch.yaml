@@ -9,6 +9,7 @@ spec:
   - metadata:
       name: stan-sts-vol
     spec:
+      storageClassName: alibabacloud-cnfs-nas
       accessModes:
       - ReadWriteOnce
       volumeMode: "Filesystem"

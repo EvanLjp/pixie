@@ -21,11 +21,11 @@ spec:
           value: pl
         - name: POSTGRES_PASSWORD
           value: pl
-        volumeMounts:
-        - mountPath: /var/lib/postgresql/data
-          subPath: data
-          name: postgres-pv-claim
-      volumes:
-      - name: postgres-pv-claim
-        persistentVolumeClaim:
-          claimName: postgres-pv-claim
+#        volumeMounts:
+#        - mountPath: /var/lib/postgresql/data
+#          subPath: data
+#          name: postgres-pv-claim
+#      volumes:
+#      - name: postgres-pv-claim
+#        persistentVolumeClaim:
+#          claimName: postgres-pv-claim
